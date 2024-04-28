@@ -4,7 +4,7 @@ This is a template Spigot Minecraft plugin for version 1.20.
 
 ## Description
 
-This template plugin serves as a foundation for developing custom Spigot plugins for Minecraft servers. It provides basic functionality and structure that developers can build upon to create their own unique plugins.
+This template plugin is a foundation for developing custom Spigot plugins for Minecraft servers. It provides basic functionality and structure that developers can build upon to create their unique plugins.
 
 ## Files
 
@@ -24,7 +24,7 @@ The util directory contains functionality to get and set the prefix.
 
 ## Usage
 
-To use this template for developing your own plugin:
+To use this template for developing your plugin:
 
 1. Clone or download this repository.
 2. Customize the code in `Main.java` to add your desired functionality.
@@ -36,8 +36,4 @@ To use this template for developing your own plugin:
 
 ## Contributing
 
-Contributions to this template plugin are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Contributions to this template plugin are welcome! Feel free to fork the repository and submit a pull request if you have suggestions for improvements or new features.
