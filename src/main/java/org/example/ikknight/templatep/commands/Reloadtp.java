@@ -20,13 +20,13 @@ public class Reloadtp implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if(commandSender.isOp()){
-            commandSender.sendMessage(getPrefix()+"Starting reload please stand by...");
+            commandSender.sendMessage(getPrefix()+ChatColor.YELLOW+"Starting reload please stand by...");
             m.reloadConfiguration();
             m.reloadConfig();
             setPrefix(m.getConfig().get(Constants.YAML.PREFIX_PATH));
-            commandSender.sendMessage(getPrefix()+"Reload Successful!");
+            commandSender.sendMessage(getPrefix()+ChatColor.GREEN+"Reload Successful!");
         }else{
-            commandSender.sendMessage(getPrefix()+"You do not have permission to run this command!");
+            commandSender.sendMessage(getPrefix()+ChatColor.RED+"You do not have permission to run this command!");
         }
         return true;
     }
