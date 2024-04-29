@@ -1,39 +1,31 @@
-# TemplatePluginSpigot
+# Template Plugin for Spigot and CraftBukkit Servers
 
-This is a template Spigot Minecraft plugin for version 1.20.
+## Version: 1.20.X
 
-## Description
+### Description:
+This plugin allows for easy customization of player welcome messages by modifying a config file. Additionally, it provides commands for reloading the plugin configuration and responding to custom commands.
 
-This template plugin is a foundation for developing custom Spigot plugins for Minecraft servers. It provides basic functionality and structure that developers can build upon to create their unique plugins.
+### Features:
+- **Player Welcome Customization**: Change the suffix of player welcome messages to greet players uniquely.
+- **Config Reload Command**: Reload the plugin's configuration without restarting the server.
+- **TellMe Command**: Respond to custom commands from players with specific messages.
 
-## Files
+### Usage:
+1. **Configuring Player Welcome Message**:
+    - Open the `config.yml` file located in the plugin's source code.
+    - Modify the `suffix` value to customize the player welcome message.
 
-- [plugin.yml](https://github.com/IKKNIGHT/TemplatePluginSpigot/blob/master/src/main/resources/plugin.yml): This YAML file contains configuration information for the plugin.
+2. **Reloading Plugin Configuration**:
+    - Use the `/reloadtp` command to reload the plugin's configuration.
 
-- [Main.java](https://github.com/IKKNIGHT/TemplatePluginSpigot/blob/master/src/main/java/org/example/ikknight/templatep/Main.java): This Java file contains the main code for the plugin.
+3. **Using Custom Commands**:
+    - Utilize the `/tellme <message>` command to have the server respond with a specific message.
 
-## Features
+### Installation:
+1. Download the latest version of the plugin from the releases section.
+2. Place the downloaded `.jar` file into your server's `plugins` folder.
+3. Restart or reload your server to enable the plugin.
 
-- **/say command**: Use `/say <message>` to make the server output a custom message.
-
-- **Player welcome**: Players are welcomed with a message when they join the server.
-
-## Util
-
-The util directory contains functionality to get and set the prefix.
-
-## Usage
-
-To use this template for developing your plugin:
-
-1. Clone or download this repository.
-2. Customize the code in `Main.java` to add your desired functionality.
-3. Modify the `plugin.yml` file to suit your plugin's requirements.
-4. Add any additional classes or resources as needed.
-5. Compile your plugin into a JAR file.
-6. Deploy the JAR file to your Spigot server's `plugins` directory.
-7. Reload or restart your server to apply the changes.
-
-## Contributing
-
-Contributions to this template plugin are welcome! Feel free to fork the repository and submit a pull request if you have suggestions for improvements or new features.
+### Example Configuration (config.yml):
+```yaml
+suffix: "[TEMPLATE-PLUGIN]"
