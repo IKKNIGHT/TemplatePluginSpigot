@@ -3,29 +3,27 @@
 ## Version: 1.20.X
 
 ### Description:
-This plugin allows for easy customization of player welcome messages by modifying a config file. Additionally, it provides commands for reloading the plugin configuration and responding to custom commands.
+Thsi is a template plugin feel free to use this however you like. This plugin allows for easy customization of plugin message prefixes by modifying a config file. Additionally, it provides commands for reloading the plugin configuration and responding to custom commands.
 
 ### Features:
-- **Player Welcome Customization**: Change the suffix of player welcome messages to greet players uniquely.
+- **Prefix Customization**: Change the prefix of all plugin messages to customize the server's communication style.
 - **Config Reload Command**: Reload the plugin's configuration without restarting the server.
 - **TellMe Command**: Respond to custom commands from players with specific messages.
 
 ### Usage:
-1. **Configuring Player Welcome Message**:
-    - Open the `config.yml` file located in the plugin's source code.
-    - Modify the `suffix` value to customize the player welcome message.
+1. **Configuring Plugin Message Prefix**:
+   - Open the `config.yml` file located in the plugin's source code.
+   - Modify the `prefix` value to customize the prefix of all plugin messages.
 
 2. **Reloading Plugin Configuration**:
-    - Use the `/reloadtp` command to reload the plugin's configuration.
+   - Use the `/reloadtp` command to reload the plugin's configuration.
 
-3. **Using Custom Commands**:
-    - Utilize the `/tellme <message>` command to have the server respond with a specific message.
+3. **Using Custom Command**:
+   - Utilize the `/tellme <message>` command to have the server respond with a specific message.
 
-### Installation:
-1. Download the latest version of the plugin from the releases section.
-2. Place the downloaded `.jar` file into your server's `plugins` folder.
-3. Restart or reload your server to enable the plugin.
-
-### Example Configuration (config.yml):
+### Example Configuration (PluginName / config.yml):
 ```yaml
-suffix: "[TEMPLATE-PLUGIN]"
+prefix: "&a[Server]&r " #< keep the space
+```
+### Issues
+Having an error or question? go to the issues page and create an issue [here](https://github.com/IKKNIGHT/TemplatePluginSpigot/issues)
