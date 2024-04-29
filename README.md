@@ -3,7 +3,7 @@
 ## Version: 1.20.X
 
 ### Description:
-Thsi is a template plugin feel free to use this however you like. This plugin allows for easy customization of plugin message prefixes by modifying a config file. Additionally, it provides commands for reloading the plugin configuration and responding to custom commands.
+This is a template plugin feel free to use this however you like. This plugin allows for easy customization of plugin message prefixes by modifying a config file. Additionally, it provides commands for reloading the plugin configuration and responding to custom commands.
 
 ### Features:
 - **Prefix Customization**: Change the prefix of all plugin messages to customize the server's communication style.
