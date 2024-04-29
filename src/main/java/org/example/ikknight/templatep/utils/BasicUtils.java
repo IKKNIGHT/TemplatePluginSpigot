@@ -1,11 +1,11 @@
 package org.example.ikknight.templatep.utils;
 
 public class BasicUtils {
-    String Suffix = "";
-    public String getSuffix(){
+    private static String Suffix = "";
+    public static String getPrefix(){
         return Suffix;
     }
-    public void setSuffix(String newSuffix){
-        Suffix = newSuffix;
+    public static void setPrefix(Object newSuffix){
+        Suffix = (String) newSuffix;
     }
 }

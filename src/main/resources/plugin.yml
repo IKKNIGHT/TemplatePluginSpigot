@@ -3,8 +3,10 @@ version: '${version}'
 main: org.example.ikknight.templatep.Main
 api-version: '1.20'
 commands:
-  say:
+  tellme:
     description: says whatever you tell it to
-    usage: /<command> <something>
+    usage: /<command> <the thing you want the server to tell you>
+  reloadtp:
+    description: reloads this plugins configuration (PERMISSIONS --> OP)
+    usage: /<command>
 
-# Feel free to change this as you wish!

@@ -11,6 +11,6 @@ public class PlayerJoin implements Listener{
     @EventHandler
     public void PlayerJoinEvent(PlayerJoinEvent event) {
         Player p = event.getPlayer();
-        p.sendMessage(basicUtils.getSuffix()+ChatColor.GREEN + "Welcome to the server!");
+        p.sendMessage(basicUtils.getPrefix()+ChatColor.GREEN + "Welcome to the server!");
     }
 }
